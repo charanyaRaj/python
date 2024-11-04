@@ -1,0 +1,17 @@
+# Program to collect user information and print a personalized message
+
+# Function to get user input and print a message
+def get_user_info():
+    # Ask for user details
+    name = input("What is your name? ")
+    age = input("How old are you? ")
+    location = input("Where are you located? ")
+
+    # Create a personalized message
+    message = f"Hello, {name}! You are {age} years old and live in {location}. It's great to meet you!"
+    
+    # Print the personalized message
+    print(message)
+
+# Call the function to execute the program
+get_user_info()
